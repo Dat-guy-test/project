@@ -1,9 +1,9 @@
-4 | Nazwa4 | Opis4 | HoverText4 | 0 | 2 | 3 2
-5 | Nazwa5 | Opis5 | HoverText5 | 0 | -1 | 1
-8 | Nazwa8 | Opis8 | HoverText8 | 0 | 3 | 4
-6 | Nazwa6 | Opis6 | HoverText6 | -1 | -1 | 1
-7 | Nazwa7 | Opis7 | HoverText7 | 1 | -1 | 1
-9 | Nazwa9 | Opis9 | HoverText9 | -1 | 3 | 2
 1 | Nazwa1 | Opis1 | HoverText1 | 0 | 0 | -
 2 | Nazwa2 | Opis2 | HoverText2 | 0 | 1 | 1
 3 | Nazwa3 | Opis3 | HoverText3 | 1 | 1 | 1
+4 | Nazwa4 | Opis4 | HoverText4 | 0 | 2 | 3 2
+-1 | Nazwa5 | Opis5 | HoverText5 | 0 | -1 | 1
+-2 | Nazwa6 | Opis6 | HoverText6 | -1 | -1 | 1
+-3 | Nazwa7 | Opis7 | HoverText7 | 1 | -1 | 1
+8 | Nazwa8 | Opis8 | HoverText8 | 0 | 3 | 4
+9 | Nazwa9 | Opis9 | HoverText9 | -1 | 3 | 2
