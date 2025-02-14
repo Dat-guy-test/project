@@ -7,5 +7,5 @@
 -3 | Nazwa7 | Opis7 | HoverText7 | 1 | -1 | 1 -5 | 5
 8 | Nazwa8 | Opis8 | HoverText8 | 0 | 3 | 4 | 10
 9 | Nazwa9 | Opis9 | HoverText9 | -1 | 3 | 2 | 10
--4 | Nazwa10 | Opis10 | HoverText10 | -1 | - | -2 | 3
--5 | Nazwa11 | Opis11 | HoverText11 | 1 | - | -3 | 2
+-4 | Nazwa10 | Opis10 | HoverText10 | -1 | -2 | - | 3
+-5 | Nazwa11 | Opis11 | HoverText11 | 1 | -3 | - | 2
