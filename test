@@ -1,11 +1,16 @@
-1 | Nazwa1 | Opis1 | HoverText1 | 0 | 0 | -1 -4o-3 | 0
-2 | Nazwa2 | Opis2 | HoverText2 | 0 | 1 | 1 | 10
-3 | Nazwa3 | Opis3 | HoverText3 | 1 | 1 | 1 | 15
-4 | Nazwa4 | Opis4 | HoverText4 | 0 | 2 | 3o2 | 20
--1 | Nazwa5 | Opis5 | HoverText5 | 0 | -1 | - | 10
--2 | Nazwa6 | Opis6 | HoverText6 | -1 | -1 | -4 | 15
--3 | Nazwa7 | Opis7 | HoverText7 | 1 | -1 | -5 | 5
-8 | Nazwa8 | Opis8 | HoverText8 | 0 | 3 | 4 | 10
-9 | Nazwa9 | Opis9 | HoverText9 | -1 | 3 | 2 4 | 10
--4 | Nazwa10 | Opis10 | HoverText10 | -1 | -2 | - | 3
--5 | Nazwa11 | Opis11 | HoverText11 | 1 | -3 | - | 2
+1 | Adventurer | You decide to begin your adventure. You need to choose at least one origin and lifestyle perk before continuing. | Begin your adventure! | 0 | 0 | -1001o-1002o-1003o-1004o-1005 | 0
+-1 | Innate caster | You always had some profficiency in manipulating the world around you via magic. | Grants access to Witchery tree and basic magic. | -1 | -1 | - | 5
+-1001 | Human | You were born with human anatomy and traits. | Grants Human traits. | 2 | -2 | - | 1  
+-1002 | Dwarf | You were born with mostly dwarven anatomy and traits. | Grants Dwarven traits. | 3 | -2 | - | 2
+-1003 | Elf | You were born with mostly elvish anatomy and traits. | Grants Elvish traits. | 4 | -2 | - | 2
+-1004 | Fae | You were born with mostly faeish anatomy and traits. | Grants Faeish traits. | 5 | -2 | - | 5
+-1005 | Daemon | You were born with mostly daemonish anatomy and traits. | Grants Daemonish traits. | 6 | -2 | - | 5
+-2001 | Beggar | You were a beggar. | Grants beggar's starting equipement and skills. | -2 | -1 | - | 1
+-2002 | Peasant | You were a lowborn peasant. | Grants peasant's starting equipement and skills. | -3 | -1 | - | 2
+-2003 | Sword for Hire | You were a sword for hire. | Grants Warrior's starting equipement and skills. | -4 | -1 | - | 2
+-2004 | Mercenary | You were a mercenary. | Grants Mercenary's starting equipement and skills. | -5 | -1 | - | 1
+2 | Secrets of the World | You begin to uncover the mysteries of the universe. | Grants intellect related skills. | -10 | 1 | 1 | 1
+3 | Student of the Arcane | You begin to study magic arts. | Grants access to basic magic. | -5 | 2 | 2 | 1
+4 | Explorer | Begin to explore the world. | Grants access to the exploration tree. | 0 | 1 | 1 | 1
+5 | Diplomat | Be more persuasive. | Grants access to the exploration tree. | 5 | 1 | 1 | 1
+6 | Warrior | You begin to hone in on your skills with weapons | Grants bonus to weapons. | 10 | 1 | 1 | 1
