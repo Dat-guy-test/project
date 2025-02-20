@@ -1,14 +1,16 @@
-1 | Adventurer | You decide to begin your adventure. You need to choose at least one origin and lifestyle perk before continuing. | Begin your adventure! | 0 | 0 | -1001o-1002o-1003o-1004o-1005 -2001o-2002o-2003o-2004 | 0
--1 | Innate caster | You always had some profficiency in manipulating the world around you via magic. | Grants access to Witchery tree and basic magic. | -1 | -1 | - | 5
--1001 | Human | You were born with human anatomy and traits. | Grants Human traits. | 2 | -2 | - | 1  
+1 | Adventurer | You decide to begin your adventure. You need to choose at least one origin and lifestyle perk before continuing. | Begin your adventure! | 0 | 0 | -1 -2 | 0
+-3 | Innate caster | You always had some profficiency in manipulating the world around you via magic. | Grants access to Witchery tree and basic magic. | 0 | -2 | - | 5
+-1 | Complete Origin | Choose this node to complete your origin. You can choose up to two origins. | Complete origin creation. | 1 | -1 | -1001o-1002o-1003o-1004o-1005 | 0
+-2 | Complete Lifestyle Choices | Choose this node to confirm your lifestyle choices. You can pick as many lifestyles as you want as long as you don't run out of perk points. | -1 | -1 | -2001o-2002o-2003o-2004 | 0 
+-1001 | Human | You were born with human anatomy and traits. Origin trait:\n Children of the Gods: Humans gain one favour point each sunrise.\n\n | Grants Human traits. | 2 | -2 | - | 1  
 -1002 | Dwarf | You were born with mostly dwarven anatomy and traits. | Grants Dwarven traits. | 3 | -2 | - | 2
 -1003 | Elf | You were born with mostly elvish anatomy and traits. | Grants Elvish traits. | 4 | -2 | - | 2
 -1004 | Fae | You were born with mostly faeish anatomy and traits. | Grants Faeish traits. | 5 | -2 | - | 5
 -1005 | Daemon | You were born with mostly daemonish anatomy and traits. | Grants Daemonish traits. | 6 | -2 | - | 5
--2001 | Beggar | You were a beggar. | Grants beggar's starting equipement and skills. | -2 | -1 | - | 1
--2002 | Peasant | You were a lowborn peasant. | Grants peasant's starting equipement and skills. | -3 | -1 | - | 2
--2003 | Sword for Hire | You were a sword for hire. | Grants Warrior's starting equipement and skills. | -4 | -1 | - | 2
--2004 | Mercenary | You were a mercenary. | Grants Mercenary's starting equipement and skills. | -5 | -1 | -2003 | 1
+-2001 | Beggar | You were a beggar. | Grants beggar's starting equipement and skills. | -2 | -2 | - | 1
+-2002 | Peasant | You were a lowborn peasant. | Grants peasant's starting equipement and skills. | -3 | -2 | - | 2
+-2003 | Sword for Hire | You were a sword for hire. | Grants Warrior's starting equipement and skills. | -4 | -2 | - | 2
+-2004 | Mercenary | You were a mercenary. | Grants Mercenary's starting equipement and skills. | -5 | -2 | -2003 | 1
 2 | Secrets of the World | You begin to uncover the mysteries of the universe. | Grants intellect related skills. | -10 | 1 | 1 | 1
 3 | Student of the Arcane | You begin to study magic arts. | Grants access to basic magic. | -5 | 2 | 2 | 1
 4 | Explorer | Begin to explore the world. | Grants access to the exploration tree. | 0 | 1 | 1 | 1
