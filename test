@@ -16,3 +16,7 @@
 4 | Explorer | Begin to explore the world. | Grants access to the exploration tree. | 0 | 1 | 1 | 1
 5 | Diplomat | Be more persuasive. | Grants access to the exploration tree. | 5 | 1 | 1 | 1
 6 | Warrior | You begin to hone in on your skills with weapons | Grants bonus to weapons. | 10 | 1 | 1 | 1
+7 | Resourceful | You got a little better at making the most out of what you have in any given situation. <D><D> Your ingenuity increases by 1. | +1 to ingenuity. | -6 | 2 | 2 | 2
+8 | Creative | You became a bit more creative. <D><D> Your ingenuity increases by 1. <D> Damage you deal with improvised weapons increases by 1d4 of a type that this weapon already deals (you can choose a different one each attack). | +1 to ingenuity. Your improvised weapon attacks deal more damage. | -6 | 3 | 2 | 2
+9 | Improvised weapon adept | You focus your martial training at what you have at hand. <D> You gain an additional bonus to hit rolls made with improvised weapons equal to your ingenuity stat. <D> You also gain +1 ingenuity. | +1 to ingenuity. Your improvised weapon attacks become more accurate. | -7 | 4 | 2 | 1
+10 | Improvised weapon master | You master the art of using all sorts of mundane objects to fight. <D> Damage you deal with improvised weapons increases by an additional 1d6 of a type that this weapon already deals (you can choose a different one each attack). <D> You also gain +1 ingenuity. | +1 to ingenuity. Your improvised weapon attacks deal even more damage. | -7 | 5 | 2 | 1
