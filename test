@@ -1,4 +1,4 @@
-1 | Adventurer | You decide to begin your adventure. You need to choose at least one origin and lifestyle perk before continuing. | Begin your adventure! | 0 | 0 | -1 -2 | 0 | 0 | 20000
+1 | Adventurer | You decide to begin your adventure. You need to choose at least one origin and lifestyle perk before continuing. | Begin your adventure! | 0 | 0 | -1 -2 | 0 | 0 | 12000
 -3 | Innate caster | You always had some profficiency in manipulating the world around you via magic. | Grants access to Witchery tree and basic magic. | 0 | -2 | - | 5 | 0 | 40000
 -1 | Complete Origin | Choose this node to complete your origin. You can choose up to two origins. | Complete origin creation. | 1 | -1 | -1001o-1002o-1003o-1004o-1005 | 0 | 0 | 7000
 -2 | Complete Lifestyle Choices | Choose this node to confirm your lifestyle choices. You can pick as many lifestyles as you want as long as you don't run out of perk points. | Complete lifestyle creation. | -1 | -1 | -2001o-2002o-2003o-2004 | 0 | 0 | 7000
