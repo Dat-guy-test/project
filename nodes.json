@@ -74,7 +74,7 @@
       "fi": 22.27,
       "theta": 24,
       "requires": [],
-      "cost": 3,
+      "cost": 5,
       "temperature": 5000,
       "exclGroup": "origins"
     },
@@ -93,7 +93,7 @@
     {
       "id": "-1004",
       "name": "Gnom",
-      "desc": "Jesteś Gnomem.\n\nStartowe Charakterystyki:\nForma: 8\nBystorść: 11\nSiła Woli: 11\n\nSzybkość: 11\n\nDodatkowe umiejętności:\nUmysł Mędrca:\nZyskujesz 1 poziom doświadczenia w umiejętnościach: Wiedza Medyczna, Alchemia, Inżynieria, Majsterkowanie, Metalurgia, Zaklinanie, Badawczość, Uczenie się, Wiedza Powszechna i Wiedza Magicza.\n\nMistrzowie Magii:\n\n\nCechy Fizyczne:\nWzrost: od 0,6 do 1 jednostki\nRozmiar: Mały\n\nDługość życia:\nWiek dojrzałości fizycznej: od 16 do 24 lat\nWiek starczy: 70 lat,\nŚrednia Długość Życia: 130 lat (średnia),\nMaksymalna Długość Życia: 160 lat",
+      "desc": "Jesteś Gnomem.\n\nStartowe Charakterystyki:\nForma: 8\nBystorść: 11\nSiła Woli: 11\n\nSzybkość: 11\n\nDodatkowe umiejętności:\nUmysł Mędrca:\nZyskujesz 1 poziom doświadczenia w umiejętnościach: Wiedza Medyczna, Alchemia, Inżynieria, Majsterkowanie, Metalurgia, Zaklinanie, Badawczość, Uczenie się, Wiedza Powszechna i Wiedza Magicza.\n\nMistrzowie Magii:\nPodczas co najmniej godzinnego odpoczynku możesz przygotować jedną akcję zużywającą maksymalnie 3 Punkty Energii. Wykonanie przygotowanej akcji po raz pierwszy od jej przygotowania nie zużywa energii. Po wykonaniu dowolnej akcji posiadającej koszt w energii przygotowana akcja przestaje być przygotowana.\n\nCechy Fizyczne:\nWzrost: od 0,9 do 1,3 jednostki\nRozmiar: Mały lub Średni\n\nDługość życia:\nWiek dojrzałości fizycznej: od 16 do 24 lat\nWiek starczy: 70 lat,\nŚrednia Długość Życia: 130 lat (średnia),\nMaksymalna Długość Życia: 160 lat",
       "hoverText": "",
       "fi": 24,
       "theta": 23,
@@ -105,7 +105,7 @@
     {
       "id": "-1005",
       "name": "Niziołek",
-      "desc": "Jesteś nizołkiem\n\nStartowe Charakterystyki:\nForma: 11\nBystrość: 8\nSiła Woli: 11\nSzybkość: 10\n\nRozmiar: Mały\n\nDodatkowe atrybuty:\n",
+      "desc": "Jesteś nizołkiem\n\nStartowe Charakterystyki:\nForma: 11\nBystrość: 8\nSiła Woli: 11\n\nSzybkość: 10\n\nDodatkowe umiejętności:\nSavant:\nNiziołki często są nizwykle wybitne w jednej dziedzinie. Otrzymujesz trzy poziomy doświadczenia i dwa poziomy improwizacji w jednej wybranej umiejętności.\n\nTrudni do trafienia:\nZ racji na swoją niewielką formę niziołki potrafią być zaskakująco trudne do trafienia. Gdy twój rozmiar jest Mały zyskujesz +2 do ewazji.\n\nCechy Fizyczne:\nWzrost: od 0,9 do 1,5 jednostki\nRozmiar: Mały lub Średni\n\nDługość życia:\nWiek dojrzałości fizycznej: od 21 do 23 lat\nWiek starczy: 80 lat,\nŚrednia Długość Życia: 100 lat (średnia),\nMaksymalna Długość Życia: 140 lat",
       "hoverText": "",
       "fi": 22.27,
       "theta": 26.000000000000004,
@@ -293,7 +293,7 @@
     {
       "id": "100001",
       "name": "Półelf",
-      "desc": "Jesteś półelfem\n\nStartowe Charakterystyki:\nForma: 11\nBystrość: 11\nSiła Woli: 8\nSzybkość: 13",
+      "desc": "Jesteś półelfem\n\nStartowe Charakterystyki:\nForma: 11\nBystrość: 11\nSiła Woli: 8\n\nSzybkość: 14\n\n\nDodatkowe umiejętności:\nSavant:\nNiziołki często są nizwykle wybitne w jednej dziedzinie. Otrzymujesz trzy poziomy doświadczenia i dwa poziomy improwizacji w jednej wybranej umiejętności.\n\nTrudni do trafienia:\nZ racji na swoją niewielką formę niziołki potrafią być zaskakująco trudne do trafienia. Gdy twój rozmiar jest Mały zyskujesz +2 do ewazji.\n\nCechy Fizyczne:\nWzrost: od 1,2 do 1,5 jednostki\nRozmiar: Średni\n\nDługość życia:\nWiek dojrzałości fizycznej: od 18 do 24 lat\nWiek starczy: 100 lat,\nŚrednia Długość Życia: 135 lat (średnia),\nMaksymalna Długość Życia: 170 lat",
       "hoverText": "",
       "fi": 25.73,
       "theta": 26.000000000000004,
@@ -305,7 +305,7 @@
     {
       "id": "100002",
       "name": "Odmieniec",
-      "desc": "Startowe Charakterystyki:\nRozdaj 30 poziomów między Formę, Bystrość i Siłę Woli, gdzie żadna z tych charakterystyk nie może być poniżej 7 i żadna nie może być powyżej 13\nSzybkość: 12",
+      "desc": "Startowe Charakterystyki:\n\nRozdaj 30 poziomów między Formę, Bystrość i Siłę Woli, gdzie żadna z tych charakterystyk nie może być poniżej 7 i żadna nie może być powyżej 13.\n\nSzybkość: 13",
       "hoverText": "",
       "fi": 24,
       "theta": 25,
@@ -332,13 +332,13 @@
       "label": "origins",
       "max": 1,
       "members": [
-        "100002",
-        "100001",
-        "-1005",
         "-1001",
-        "-1002",
         "-1003",
-        "-1004"
+        "-1002",
+        "-1004",
+        "100002",
+        "-1005",
+        "100001"
       ]
     }
   ]
