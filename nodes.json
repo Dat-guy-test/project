@@ -21,7 +21,8 @@
       ],
       "cost": 0,
       "temperature": 12000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "-3",
@@ -33,7 +34,8 @@
       "requires": [],
       "cost": 5,
       "temperature": 13000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "-2",
@@ -52,7 +54,8 @@
       ],
       "cost": 0,
       "temperature": 7000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "-1001",
@@ -64,31 +67,107 @@
       "requires": [],
       "cost": 0,
       "temperature": 4000,
-      "exclGroup": "origins"
+      "exclGroup": "origins",
+      "effects": [
+        {
+          "type": "characteristic",
+          "key": "forma",
+          "amount": 12
+        },
+        {
+          "type": "characteristic",
+          "key": "bystrosc",
+          "amount": 9
+        },
+        {
+          "type": "characteristic",
+          "key": "silaWoli",
+          "amount": 9
+        },
+        {
+          "type": "characteristic",
+          "key": "szybkosc",
+          "amount": 12
+        }
+      ]
     },
     {
       "id": "-1002",
       "name": "Krasnolud",
       "desc": "Jesteś krasnoludem.\n\nStartowe Charakterystyki:\nForma: 9\nBystorść: 9\nSiła Woli: 12\n\nSzybkość: 9\n\nDodatkowe umiejętności:\nUparci:\nPo każdej godzinie odpoczynku odzyskujesz 1d4 Punktów Energii\n\nAdaptowalny wzrok:\nKonstrukcja krasnoludzkich oczu umożliwia im widzenie w ciemności, choć nie są w stanie rozpoznawać w jej kolorów.\n\nCechy Fizyczne:\nWzrost: od 0,6 do 1 jednostki\nRozmiar: Mały\n\nDługość życia:\nWiek dojrzałości fizycznej: od 18 do 22 lat\nWiek starczy: 110 lat,\nŚrednia Długość Życia: 125 lat (średnia),\nMaksymalna Długość Życia: 150 lat",
       "hoverText": "Grants Dwarven traits.",
-      "fi": 22.270000000000003,
+      "fi": 22.27,
       "theta": 24,
       "requires": [],
       "cost": 5,
       "temperature": 5000,
-      "exclGroup": "origins"
+      "exclGroup": "origins",
+      "effects": [
+        {
+          "type": "characteristic",
+          "key": "forma",
+          "amount": 9
+        },
+        {
+          "type": "characteristic",
+          "key": "bystrosc",
+          "amount": 9
+        },
+        {
+          "type": "characteristic",
+          "key": "silaWoli",
+          "amount": 12
+        },
+        {
+          "type": "characteristic",
+          "key": "szybkosc",
+          "amount": 9
+        }
+      ]
     },
     {
       "id": "-1003",
       "name": "Elf",
       "desc": "Jesteś elfem.\n\nStartowe Charakterystyki:\nForma: 9\nBystorść: 12\nSiła Woli: 9\n\nSzybkość: 15\n\nDodatkowe umiejętności:\nSzybcy jak wiatr\nMożesz jako darmowa akcja nadwyrężyć się zyskując Punkty Akcji w liczbie połowy swojej Zwinności (Czyli w liczbie połowy Maksymalnych Punktów Akcji, zaokrąglonych w dół). Po godzinie odpoczynku jesteś w stanie ponownie nadwyrężyć swój organizm w ten sposób.\n\nCzernogrzywi wzrok:\nKonstrukcja elfich oczu umożliwia im widzenie małych detali, których nie widzą inni. Zywkujesz 2 poziomy doświadczenia i 1 poziom improwizacji w umiejętności Spostrzegawczość.\n\nCechy Fizyczne:\nWzrost: od 1,3 do 1,7 jednostki\nRozmiar: Średni lub Duży\n\nDługość życia:\nWiek dojrzałości fizycznej: od 20 do 26 lat\nWiek starczy: 125 lat,\nŚrednia Długość Życia: 150 lat (średnia),\nMaksymalna Długość Życia: 200 lat",
       "hoverText": "Grants Elvish traits.",
-      "fi": 25.729999999999997,
+      "fi": 25.73,
       "theta": 24,
       "requires": [],
       "cost": 5,
       "temperature": 5000,
-      "exclGroup": "origins"
+      "exclGroup": "origins",
+      "effects": [
+        {
+          "type": "characteristic",
+          "key": "forma",
+          "amount": 9
+        },
+        {
+          "type": "characteristic",
+          "key": "bystrosc",
+          "amount": 12
+        },
+        {
+          "type": "characteristic",
+          "key": "silaWoli",
+          "amount": 9
+        },
+        {
+          "type": "characteristic",
+          "key": "szybkosc",
+          "amount": 15
+        },
+        {
+          "type": "skillExperience",
+          "key": "spostrzegawczosc",
+          "amount": 2
+        },
+        {
+          "type": "skillImprovisation",
+          "key": "spostrzegawczosc",
+          "amount": 1
+        }
+      ]
     },
     {
       "id": "-1004",
@@ -100,19 +179,113 @@
       "requires": [],
       "cost": 4,
       "temperature": 7000,
-      "exclGroup": "origins"
+      "exclGroup": "origins",
+      "effects": [
+        {
+          "type": "characteristic",
+          "key": "forma",
+          "amount": 8
+        },
+        {
+          "type": "characteristic",
+          "key": "bystrosc",
+          "amount": 11
+        },
+        {
+          "type": "characteristic",
+          "key": "silaWoli",
+          "amount": 11
+        },
+        {
+          "type": "characteristic",
+          "key": "szybkosc",
+          "amount": 11
+        },
+        {
+          "type": "skillExperience",
+          "key": "wiedzaMedyczna",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "alchemia",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "inzynieria",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "majsterkowanie",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "metalurgia",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "zaklinanie",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "badawczosc",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "uczenieSie",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "wiedzaPowszechna",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "wiedzaMagiczna",
+          "amount": 1
+        }
+      ]
     },
     {
       "id": "-1005",
       "name": "Niziołek",
       "desc": "Jesteś nizołkiem\n\nStartowe Charakterystyki:\nForma: 11\nBystrość: 8\nSiła Woli: 11\n\nSzybkość: 10\n\nDodatkowe umiejętności:\nSavant:\nNiziołki często są nizwykle wybitne w jednej dziedzinie. Otrzymujesz trzy poziomy doświadczenia i dwa poziomy improwizacji w jednej wybranej umiejętności.\n\nTrudni do trafienia:\nZ racji na swoją niewielką formę niziołki potrafią być zaskakująco trudne do trafienia. Gdy twój rozmiar jest Mały zyskujesz +2 do ewazji.\n\nCechy Fizyczne:\nWzrost: od 0,9 do 1,5 jednostki\nRozmiar: Mały lub Średni\n\nDługość życia:\nWiek dojrzałości fizycznej: od 21 do 23 lat\nWiek starczy: 80 lat,\nŚrednia Długość Życia: 100 lat (średnia),\nMaksymalna Długość Życia: 140 lat",
       "hoverText": "",
-      "fi": 22.270000000000003,
-      "theta": 26.000000000000007,
+      "fi": 22.27,
+      "theta": 26.000000000000004,
       "requires": [],
       "cost": 4,
       "temperature": 8000,
-      "exclGroup": "origins"
+      "exclGroup": "origins",
+      "effects": [
+        {
+          "type": "characteristic",
+          "key": "forma",
+          "amount": 11
+        },
+        {
+          "type": "characteristic",
+          "key": "bystrosc",
+          "amount": 8
+        },
+        {
+          "type": "characteristic",
+          "key": "silaWoli",
+          "amount": 11
+        },
+        {
+          "type": "characteristic",
+          "key": "szybkosc",
+          "amount": 10
+        }
+      ]
     },
     {
       "id": "-2001",
@@ -124,7 +297,8 @@
       "requires": [],
       "cost": 1,
       "temperature": 2500,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "-2002",
@@ -136,7 +310,8 @@
       "requires": [],
       "cost": 2,
       "temperature": 2700,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "-2003",
@@ -148,7 +323,8 @@
       "requires": [],
       "cost": 2,
       "temperature": 3000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "-2004",
@@ -162,7 +338,8 @@
       ],
       "cost": 1,
       "temperature": 4000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "2",
@@ -176,7 +353,8 @@
       ],
       "cost": 1,
       "temperature": 5000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "3",
@@ -190,7 +368,8 @@
       ],
       "cost": 1,
       "temperature": 6000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "4",
@@ -204,7 +383,8 @@
       ],
       "cost": 1,
       "temperature": 5000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "5",
@@ -218,7 +398,8 @@
       ],
       "cost": 1,
       "temperature": 5000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "6",
@@ -232,7 +413,8 @@
       ],
       "cost": 1,
       "temperature": 5000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "7",
@@ -246,7 +428,8 @@
       ],
       "cost": 2,
       "temperature": 6000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "8",
@@ -260,7 +443,8 @@
       ],
       "cost": 2,
       "temperature": 4000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "9",
@@ -274,7 +458,8 @@
       ],
       "cost": 1,
       "temperature": 4000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "10",
@@ -288,7 +473,8 @@
       ],
       "cost": 1,
       "temperature": 4000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     },
     {
       "id": "100001",
@@ -300,7 +486,59 @@
       "requires": [],
       "cost": 4,
       "temperature": 6000,
-      "exclGroup": "origins"
+      "exclGroup": "origins",
+      "effects": [
+        {
+          "type": "characteristic",
+          "key": "forma",
+          "amount": 11
+        },
+        {
+          "type": "characteristic",
+          "key": "bystrosc",
+          "amount": 11
+        },
+        {
+          "type": "characteristic",
+          "key": "silaWoli",
+          "amount": 8
+        },
+        {
+          "type": "characteristic",
+          "key": "szybkosc",
+          "amount": 14
+        },
+        {
+          "type": "skillExperience",
+          "key": "charyzma",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "determinacja",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "instynkt",
+          "amount": 1
+        },
+        {
+          "type": "skillImprovisation",
+          "key": "charyzma",
+          "amount": 1
+        },
+        {
+          "type": "skillImprovisation",
+          "key": "determinacja",
+          "amount": 1
+        },
+        {
+          "type": "skillImprovisation",
+          "key": "instynkt",
+          "amount": 1
+        }
+      ]
     },
     {
       "id": "100002",
@@ -312,7 +550,8 @@
       "requires": [],
       "cost": 6,
       "temperature": 6000,
-      "exclGroup": "origins"
+      "exclGroup": "origins",
+      "effects": []
     },
     {
       "id": "100003",
@@ -324,7 +563,8 @@
       "requires": [],
       "cost": 10,
       "temperature": 6000,
-      "exclGroup": null
+      "exclGroup": null,
+      "effects": []
     }
   ],
   "mutuallyExclusive": [
@@ -332,13 +572,13 @@
       "label": "origins",
       "max": 1,
       "members": [
+        "100002",
+        "-1005",
         "-1001",
+        "100001",
         "-1003",
         "-1002",
-        "-1004",
-        "-1005",
-        "100001",
-        "100002"
+        "-1004"
       ]
     }
   ]
