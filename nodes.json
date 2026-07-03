@@ -2,9 +2,9 @@
   "nodes": [
     {
       "id": "1",
-      "name": "Adventurer",
-      "desc": "You decide to begin your adventure. You need to choose at least one origin and lifestyle perk before continuing.",
-      "hoverText": "Begin your adventure!",
+      "name": "Podróżnik",
+      "desc": "Twoja postać wkroczyła na drogę, która doprowadzi ją do zostania podróżnikiem.\n\nTen Atut jest wymagany, by zakończyć tworzenie postaci.\n\nTen atut wymaga wybrania jednego Atutu pochodzenia i przynajmniej jednego Atutu przeszłości (atuty te znajdują się poniżej tego atutu i są z nim połączone liniami.",
+      "hoverText": "",
       "fi": 20,
       "theta": 29.999999999999996,
       "requires": [
@@ -71,7 +71,7 @@
       "name": "Krasnolud",
       "desc": "Jesteś krasnoludem.\n\nStartowe Charakterystyki:\nForma: 9\nBystorść: 9\nSiła Woli: 12\n\nSzybkość: 9\n\nDodatkowe umiejętności:\nUparci:\nPo każdej godzinie odpoczynku odzyskujesz 1d4 Punktów Energii\n\nAdaptowalny wzrok:\nKonstrukcja krasnoludzkich oczu umożliwia im widzenie w ciemności, choć nie są w stanie rozpoznawać w jej kolorów.\n\nCechy Fizyczne:\nWzrost: od 0,6 do 1 jednostki\nRozmiar: Mały\n\nDługość życia:\nWiek dojrzałości fizycznej: od 18 do 22 lat\nWiek starczy: 110 lat,\nŚrednia Długość Życia: 125 lat (średnia),\nMaksymalna Długość Życia: 150 lat",
       "hoverText": "Grants Dwarven traits.",
-      "fi": 22.27,
+      "fi": 22.270000000000003,
       "theta": 24,
       "requires": [],
       "cost": 5,
@@ -83,7 +83,7 @@
       "name": "Elf",
       "desc": "Jesteś elfem.\n\nStartowe Charakterystyki:\nForma: 9\nBystorść: 12\nSiła Woli: 9\n\nSzybkość: 15\n\nDodatkowe umiejętności:\nSzybcy jak wiatr\nMożesz jako darmowa akcja nadwyrężyć się zyskując Punkty Akcji w liczbie połowy swojej Zwinności (Czyli w liczbie połowy Maksymalnych Punktów Akcji, zaokrąglonych w dół). Po godzinie odpoczynku jesteś w stanie ponownie nadwyrężyć swój organizm w ten sposób.\n\nCzernogrzywi wzrok:\nKonstrukcja elfich oczu umożliwia im widzenie małych detali, których nie widzą inni. Zywkujesz 2 poziomy doświadczenia i 1 poziom improwizacji w umiejętności Spostrzegawczość.\n\nCechy Fizyczne:\nWzrost: od 1,3 do 1,7 jednostki\nRozmiar: Średni lub Duży\n\nDługość życia:\nWiek dojrzałości fizycznej: od 20 do 26 lat\nWiek starczy: 125 lat,\nŚrednia Długość Życia: 150 lat (średnia),\nMaksymalna Długość Życia: 200 lat",
       "hoverText": "Grants Elvish traits.",
-      "fi": 25.73,
+      "fi": 25.729999999999997,
       "theta": 24,
       "requires": [],
       "cost": 5,
@@ -107,8 +107,8 @@
       "name": "Niziołek",
       "desc": "Jesteś nizołkiem\n\nStartowe Charakterystyki:\nForma: 11\nBystrość: 8\nSiła Woli: 11\n\nSzybkość: 10\n\nDodatkowe umiejętności:\nSavant:\nNiziołki często są nizwykle wybitne w jednej dziedzinie. Otrzymujesz trzy poziomy doświadczenia i dwa poziomy improwizacji w jednej wybranej umiejętności.\n\nTrudni do trafienia:\nZ racji na swoją niewielką formę niziołki potrafią być zaskakująco trudne do trafienia. Gdy twój rozmiar jest Mały zyskujesz +2 do ewazji.\n\nCechy Fizyczne:\nWzrost: od 0,9 do 1,5 jednostki\nRozmiar: Mały lub Średni\n\nDługość życia:\nWiek dojrzałości fizycznej: od 21 do 23 lat\nWiek starczy: 80 lat,\nŚrednia Długość Życia: 100 lat (średnia),\nMaksymalna Długość Życia: 140 lat",
       "hoverText": "",
-      "fi": 22.27,
-      "theta": 26.000000000000004,
+      "fi": 22.270000000000003,
+      "theta": 26.000000000000007,
       "requires": [],
       "cost": 4,
       "temperature": 8000,
@@ -293,7 +293,7 @@
     {
       "id": "100001",
       "name": "Półelf",
-      "desc": "Jesteś półelfem\n\nStartowe Charakterystyki:\nForma: 11\nBystrość: 11\nSiła Woli: 8\n\nSzybkość: 14\n\n\nDodatkowe umiejętności:\nSavant:\nNiziołki często są nizwykle wybitne w jednej dziedzinie. Otrzymujesz trzy poziomy doświadczenia i dwa poziomy improwizacji w jednej wybranej umiejętności.\n\nTrudni do trafienia:\nZ racji na swoją niewielką formę niziołki potrafią być zaskakująco trudne do trafienia. Gdy twój rozmiar jest Mały zyskujesz +2 do ewazji.\n\nCechy Fizyczne:\nWzrost: od 1,2 do 1,5 jednostki\nRozmiar: Średni\n\nDługość życia:\nWiek dojrzałości fizycznej: od 18 do 24 lat\nWiek starczy: 100 lat,\nŚrednia Długość Życia: 135 lat (średnia),\nMaksymalna Długość Życia: 170 lat",
+      "desc": "Jesteś półelfem\n\nStartowe Charakterystyki:\nForma: 11\nBystrość: 11\nSiła Woli: 8\n\nSzybkość: 14\n\nDodatkowe umiejętności:\nOdporni:\nOrganizmy półelfów są niezwykle odporne na choroby i trucizny. Po każdej godzinie odpoczynku zaleczasz 1d6 obrażeń krytycznych od chrób i trucizn, po czym leczysz 1d4 zaleczonych obrażeń tego typu.\n\nCharyzmatyczni:\nPółelfy są naturalnie uzdolnione w spokojnym rozwiązywaniu sporów. Zyskujesz 1 Poziom Doświadczenia i 1 Poziom Improwizacji w umiejętnościach: Charyzma, Determinacja i Instynkt.\n\nCechy Fizyczne:\nWzrost: od 1,2 do 1,5 jednostki\nRozmiar: Średni\n\nDługość życia:\nWiek dojrzałości fizycznej: od 18 do 24 lat\nWiek starczy: 100 lat,\nŚrednia Długość Życia: 135 lat (średnia),\nMaksymalna Długość Życia: 170 lat",
       "hoverText": "",
       "fi": 25.73,
       "theta": 26.000000000000004,
@@ -305,7 +305,7 @@
     {
       "id": "100002",
       "name": "Odmieniec",
-      "desc": "Startowe Charakterystyki:\n\nRozdaj 30 poziomów między Formę, Bystrość i Siłę Woli, gdzie żadna z tych charakterystyk nie może być poniżej 7 i żadna nie może być powyżej 13.\n\nSzybkość: 13",
+      "desc": "Jesteś odmieńcem\n\nStartowe Charakterystyki:\nRozdaj 30 poziomów między Formę, Bystrość i Siłę Woli, gdzie żadna z tych charakterystyk nie może być poniżej 7 i żadna nie może być powyżej 13.\n\nSzybkość: 13\n\nDodatkowe umiejętności:\nWybierz dwie spośród dodatkowych umiejętności innych pochodzeń.\n\nCechy Fizyczne:\nWzrost: od 0,7 do 1,8 jednostki\nRozmiar: Mały, Średni lub Duży\n\nDługość życia:\nWiek dojrzałości fizycznej: od 16 do 27 lat\nWiek starczy: 150 lat,\nŚrednia Długość Życia: 175 lat (średnia),\nMaksymalna Długość Życia: 216 lat",
       "hoverText": "",
       "fi": 24,
       "theta": 25,
@@ -317,12 +317,12 @@
     {
       "id": "100003",
       "name": "Wampir",
-      "desc": "Zostałeś Tapierm",
+      "desc": "Z racji na warunki urodzenia lub mniej lub bardziej dobrowolne uczestnictwo w mrocznym rytuale stałeś się Wampirem: jednym z kilku typów stworzeń będącymi połączeniem śmiertelnika i demona.\n\nJako wampir możesz uzyskiwać",
       "hoverText": "",
       "fi": 23,
       "theta": 20,
       "requires": [],
-      "cost": 1,
+      "cost": 10,
       "temperature": 6000,
       "exclGroup": null
     }
@@ -336,9 +336,9 @@
         "-1003",
         "-1002",
         "-1004",
-        "100002",
         "-1005",
-        "100001"
+        "100001",
+        "100002"
       ]
     }
   ]
