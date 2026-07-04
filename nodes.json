@@ -514,12 +514,12 @@
     {
       "id": "100003",
       "name": "Wampir",
-      "desc": "Z racji na warunki urodzenia lub mniej lub bardziej dobrowolne uczestnictwo w mrocznym rytuale stałeś się Wampirem: jednym z kilku typów stworzeń będącymi połączeniem śmiertelnika i demona.\n\nJako wampir możesz uzyskiwać",
+      "desc": "Z racji na warunki urodzenia lub mniej lub bardziej dobrowolne uczestnictwo w mrocznym rytuale jesteś Wampirem: jednym z kilku typów stworzeń będącymi połączeniem śmiertelnika i demona. Wampiry mają bladą skórą, słabe tętno i wolny puls. Żyją zwykle o połowę dłużej niż zwykli śmiertelnicy o ich pochodzeniu, i praktycznie nie starzeją się nawet do momentu śmierci, gdzie zwykle umierają przez zawał.\n\nBędąc Wampirem:\n\nZyskujesz atrybut:\nŻądza Krwi:\nJeżeli nie wypijesz przynajmniej litra krwi od czasu twojego ostatniego pełnego odpoczynku i wykonujesz pełen odpoczynek, nie wpływa on na twój poziom wyczerpania (wyczerpanie zmniejsza Maksymalną ilość Punktów Akcji, Energii oraz Wytrzymałość o 1 na każdy poziom wyczerpania. Zyskujesz 1 poziom wyczerpania co 24 godziny, chyba, że ukończyłeś w ciągu ostatnich 28 godzin pełny odpoczynek). Odpoczywanie nie zmniejsza poziomu wyczerpania jeżeli od ostatniego odpoczynku nie wypiłeś litra krwi.\n\nPrzeciętny śmiertelnik ma dwa litry krwi. Wbicie się w żyłę by pobrać krew zadaje 1 obrażenie krytyczne od głębokich ran. Każde 50 ml wypitej krwi zwiększa poziom wykrwawienia o 1 (czyli wypicie litra zwiększa wykrwawienie o 20).\n\nGdy nie jesteś wyczerpany twoja Wytrzymałość, Zwinność, Potęga i Szybkość zwiększają się o 1 za każdy litr krwi wypity od ostatniego pełnego odpoczynku.",
       "hoverText": "",
-      "fi": 23,
+      "fi": 18,
       "theta": 20,
       "requires": [],
-      "cost": 10,
+      "cost": 6,
       "temperature": 6000,
       "exclGroup": null,
       "effects": []
@@ -753,7 +753,7 @@
     {
       "id": "33",
       "name": "Wiejski Rzemieślnik",
-      "desc": "Jako rzemieślnik pracujący w małej miejscowości zajmowałeś się wszystkim co choćby minimalnie dotyczyło twojej profesji.\n\nZyskujesz 2 poziomy doświadczenia i improwizacji w umiejętności majsterkowanie.\n\nZyskujesz 10 pierścieni lub ekwipunek o takiej wartości.\nZyskujesz Skromny Zestaw Startowy.",
+      "desc": "Jako rzemieślnik pracujący w małej miejscowości twoją pracę stanowiło wszystko co choćby minimalnie dotyczyło twojej profesji.\n\nZyskujesz 2 poziomy doświadczenia i improwizacji w umiejętności majsterkowanie.\n\nZyskujesz 10 pierścieni lub ekwipunek o takiej wartości.\nZyskujesz Skromny Zestaw Startowy.",
       "hoverText": "",
       "fi": 17,
       "theta": 25,
@@ -771,7 +771,7 @@
       "fi": 19,
       "theta": 25,
       "requires": [],
-      "cost": 1,
+      "cost": 3,
       "temperature": 6000,
       "exclGroup": null,
       "effects": [
