@@ -8,7 +8,6 @@
       "fi": 20,
       "theta": 29.999999999999996,
       "requires": [
-        "-2",
         [
           "-1001",
           "-1005",
@@ -17,6 +16,12 @@
           "100002",
           "100001",
           "-1003"
+        ],
+        [
+          "31",
+          "32",
+          "33",
+          "34"
         ]
       ],
       "cost": 0,
@@ -34,26 +39,6 @@
       "requires": [],
       "cost": 5,
       "temperature": 13000,
-      "exclGroup": null,
-      "effects": []
-    },
-    {
-      "id": "-2",
-      "name": "Complete Lifestyle Choices",
-      "desc": "Choose this node to confirm your lifestyle choices. You can pick as many lifestyles as you want as long as you don't run out of perk points.",
-      "hoverText": "Complete lifestyle creation.",
-      "fi": 18,
-      "theta": 25.71,
-      "requires": [
-        [
-          "-2001",
-          "-2002",
-          "-2003",
-          "-2004"
-        ]
-      ],
-      "cost": 0,
-      "temperature": 7000,
       "exclGroup": null,
       "effects": []
     },
@@ -288,60 +273,6 @@
       ]
     },
     {
-      "id": "-2001",
-      "name": "Beggar",
-      "desc": "You were a beggar.",
-      "hoverText": "Grants beggar's starting equipement and skills.",
-      "fi": 16,
-      "theta": 20,
-      "requires": [],
-      "cost": 1,
-      "temperature": 2500,
-      "exclGroup": null,
-      "effects": []
-    },
-    {
-      "id": "-2002",
-      "name": "Peasant",
-      "desc": "You were a lowborn peasant.",
-      "hoverText": "Grants peasant's starting equipement and skills.",
-      "fi": 14,
-      "theta": 20,
-      "requires": [],
-      "cost": 2,
-      "temperature": 2700,
-      "exclGroup": null,
-      "effects": []
-    },
-    {
-      "id": "-2003",
-      "name": "Sword for Hire",
-      "desc": "You were a sword for hire.",
-      "hoverText": "Grants Warrior's starting equipement and skills.",
-      "fi": 12,
-      "theta": 20,
-      "requires": [],
-      "cost": 2,
-      "temperature": 3000,
-      "exclGroup": null,
-      "effects": []
-    },
-    {
-      "id": "-2004",
-      "name": "Mercenary",
-      "desc": "You were a mercenary.",
-      "hoverText": "Grants Mercenary's starting equipement and skills.",
-      "fi": 10,
-      "theta": 20,
-      "requires": [
-        "-2003"
-      ],
-      "cost": 1,
-      "temperature": 4000,
-      "exclGroup": null,
-      "effects": []
-    },
-    {
       "id": "2",
       "name": "Secrets of the World",
       "desc": "You begin to uncover the mysteries of the universe.",
@@ -549,7 +480,7 @@
     {
       "id": "100002",
       "name": "Odmieniec",
-      "desc": "Jesteś odmieńcem\n\nStartowe Charakterystyki:\nRozdaj 30 poziomów między Formę, Bystrość i Siłę Woli, gdzie żadna z tych charakterystyk nie może być poniżej 7 i żadna nie może być powyżej 13.\n\nSzybkość: 13\n\nDodatkowe umiejętności:\nWybierz dwie spośród dodatkowych umiejętności innych pochodzeń.\n\nCechy Fizyczne:\nWzrost: od 0,7 do 1,8 jednostki\nRozmiar: Mały, Średni lub Duży\n\nDługość życia:\nWiek dojrzałości fizycznej: od 16 do 27 lat\nWiek starczy: 150 lat,\nŚrednia Długość Życia: 175 lat (średnia),\nMaksymalna Długość Życia: 216 lat",
+      "desc": "Jesteś odmieńcem\n\nStartowe Charakterystyki:\nRozdaj 30 poziomów między Formę, Bystrość i Siłę Woli, gdzie żadna z tych charakterystyk nie może być poniżej 8 i żadna nie może być powyżej 14.\n\nSzybkość: 13\n\nDodatkowe umiejętności:\nWybierz dwie spośród dodatkowych umiejętności innych pochodzeń.\n\nCechy Fizyczne:\nWzrost: od 0,7 do 1,8 jednostki\nRozmiar: Mały, Średni lub Duży\n\nDługość życia:\nWiek dojrzałości fizycznej: od 16 do 27 lat\nWiek starczy: 150 lat,\nŚrednia Długość Życia: 175 lat (średnia),\nMaksymalna Długość Życia: 216 lat",
       "hoverText": "",
       "fi": 24,
       "theta": 25,
@@ -557,7 +488,28 @@
       "cost": 6,
       "temperature": 6000,
       "exclGroup": "origins",
-      "effects": []
+      "effects": [
+        {
+          "type": "characteristic",
+          "key": "forma",
+          "amount": 8
+        },
+        {
+          "type": "characteristic",
+          "key": "bystrosc",
+          "amount": 8
+        },
+        {
+          "type": "characteristic",
+          "key": "silaWoli",
+          "amount": 8
+        },
+        {
+          "type": "characteristicPoints",
+          "key": null,
+          "amount": 6
+        }
+      ]
     },
     {
       "id": "100003",
@@ -596,7 +548,7 @@
     {
       "id": "100005",
       "name": "Szkoła Makira",
-      "desc": "Szkoła Makira to szkoła fechtunku skupiająca się na wykorzystywaniu mieczy. Skupia się ona na zbalansowanym podejściu do walki.\n\nRozpoczynając trening w nucie tej szkoły zyskujesz wprawę w walce mieczami.",
+      "desc": "Szkoła Makira to szkoła fechtunku skupiająca się na wykorzystywaniu mieczy. Skupia się ona na zbalansowanym podejściu do walki.\n\nRozpoczynając trening w nurcie tej szkoły zwiększasz poziom swojej wprawy w walce mieczami.",
       "hoverText": "",
       "fi": 40,
       "theta": 40,
@@ -606,12 +558,18 @@
       "cost": 3,
       "temperature": 6000,
       "exclGroup": null,
-      "effects": []
+      "effects": [
+        {
+          "type": "proficiency",
+          "key": "Miecze",
+          "amount": 1
+        }
+      ]
     },
     {
       "id": "100006",
       "name": "Szkoła Wiwerny",
-      "desc": "Szkoła Wiwerny to szkoła fechtunku kładąca nacisk na mobilność, szybkość i zabójczo precyzyjne ataki.\n\nRozpoczynając trening w nucie tej szkoły zyskujesz wprawę w korzystaniu z sztyletów.",
+      "desc": "Szkoła Wiwerny to szkoła fechtunku kładąca nacisk na mobilność, szybkość i zabójczo precyzyjne ataki.\n\nRozpoczynając trening w nurcie tej szkoły zwiększasz poziom swojej wprawy w korzystaniu z sztyletów.",
       "hoverText": "",
       "fi": 38,
       "theta": 40,
@@ -621,12 +579,18 @@
       "cost": 2,
       "temperature": 6000,
       "exclGroup": null,
-      "effects": []
+      "effects": [
+        {
+          "type": "proficiency",
+          "key": "Sztylety",
+          "amount": 1
+        }
+      ]
     },
     {
       "id": "100004",
       "name": "Szkoła Damh",
-      "desc": "Szkoła Damh podkreśla wagę obrony, uniwersalnie efektywnych ataków, a także kładzie nacisk na umiejętność walki bez broni. Jeżeli przeciwnik nie może cię skrzywdzić, wygrasz każdą walkę.\n\nRozpoczynając trening w nucie tej szkoły zyskujesz wprawę w korzystaniu z tarcz.",
+      "desc": "Szkoła Damh podkreśla wagę obrony, uniwersalnie efektywnych ataków, a także kładzie nacisk na umiejętność walki bez broni. Jeżeli przeciwnik nie może cię skrzywdzić, wygrasz każdą walkę.\n\nRozpoczynając trening w nurcie tej szkoły zwiększasz poziom wprawy w atakach bez broni.",
       "hoverText": "",
       "fi": 42,
       "theta": 40,
@@ -636,12 +600,18 @@
       "cost": 2,
       "temperature": 6000,
       "exclGroup": null,
-      "effects": []
+      "effects": [
+        {
+          "type": "proficiency",
+          "key": "Ataki Bez Broni",
+          "amount": 1
+        }
+      ]
     },
     {
       "id": "100007",
       "name": "Szkoła Squamy",
-      "desc": "Szkołą Squamy, zwana także Szkołą Smoka, skupia się na zadawaniu druzgocących obrażeń.\n\nRozpoczynając trening w nucie tej szkoły zyskujesz biegłość w krótkich broniach drzewcowych.",
+      "desc": "Szkołą Squamy, zwana także Szkołą Smoka, skupia się na zadawaniu druzgocących obrażeń.\n\nRozpoczynając trening w nurcie tej szkoły zwiększasz swoją biegłość w krótkich broniach drzewcowych.",
       "hoverText": "",
       "fi": 43.99999999999999,
       "theta": 40,
@@ -651,12 +621,18 @@
       "cost": 3,
       "temperature": 6000,
       "exclGroup": null,
-      "effects": []
+      "effects": [
+        {
+          "type": "proficiency",
+          "key": "Krótkie Bronie Drzewcowe",
+          "amount": 1
+        }
+      ]
     },
     {
       "id": "100008",
       "name": "Szkołą Scairp",
-      "desc": "Szkołą Scairp, zwana także Szkołą Czarnogrzywa skupia się na zadawaniu ataków z przewagą dystansu.\n\nRozpoczynając trening w nucie tej szkoły zyskujesz wprawę w walce długą bronią drzewcową.",
+      "desc": "Szkołą Scairp, zwana także Szkołą Czarnogrzywa skupia się na zadawaniu ataków z przewagą dystansu.\n\nRozpoczynając trening w nucie tej szkoły zwiększasz poziom swojej wprawy w walce długą bronią drzewcową.",
       "hoverText": "",
       "fi": 36,
       "theta": 40,
@@ -666,7 +642,13 @@
       "cost": 3,
       "temperature": 6000,
       "exclGroup": null,
-      "effects": []
+      "effects": [
+        {
+          "type": "proficiency",
+          "key": "Długa Broń Drzewcowa",
+          "amount": 1
+        }
+      ]
     },
     {
       "id": "100009",
@@ -692,7 +674,7 @@
     {
       "id": "100010",
       "name": "Szkołą Sytmpha",
-      "desc": "Szkoła Stympha skupia się na doskonalenia używania broni miotanej.",
+      "desc": "Szkoła Stympha skupia się na doskonaleniu używania oszczepów, włóczni, lotek i innych podobnych broni miotanych.",
       "hoverText": "",
       "fi": 32,
       "theta": 40,
@@ -702,12 +684,18 @@
       "cost": 1,
       "temperature": 6000,
       "exclGroup": null,
-      "effects": []
+      "effects": [
+        {
+          "type": "proficiency",
+          "key": "Broń Miotana",
+          "amount": 1
+        }
+      ]
     },
     {
       "id": "100011",
       "name": "Szkołą Strzelca",
-      "desc": "Szkołą Strzelca, skupia się na używaniu broni miotającej, czyli broni wystrzeliwywującej pociski na przykład łuków i proc.",
+      "desc": "Szkołą Strzelca, skupia się na używaniu łuków tj. broni miotającej używającej strzał jako amunicję.\n\n",
       "hoverText": "",
       "fi": 28,
       "theta": 40,
@@ -717,7 +705,92 @@
       "cost": 1,
       "temperature": 6000,
       "exclGroup": null,
+      "effects": [
+        {
+          "type": "proficiency",
+          "key": "Łuki",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Biedak",
+      "desc": "Znacząca część towjego życia polegała na życiu z datków bogatszych, zasobów społeczności czy z bardzo źle płatnej pracy.\n\nZyskujesz 2 pierścienie konstansjum lub ekwipunek o równoważnej wartości.\nZyskujesz Biedny Zestaw Startowy.",
+      "hoverText": "",
+      "fi": 17,
+      "theta": 24,
+      "requires": [],
+      "cost": 1,
+      "temperature": 6000,
+      "exclGroup": null,
       "effects": []
+    },
+    {
+      "id": "32",
+      "name": "Rolnik",
+      "desc": "Przez znaczącą część swojego życia twój dobrobyt zależał od uprawianej przez ciebie ziemi.\n\nZyskujesz poziom doświadczenia i improwizacji w umiejętności majsterkowanie.\n\nZyskujesz 5 pierścieni lub ekwipunek o takiej wartości.\nZyskujesz Skromny Zestaw Startowy.",
+      "hoverText": "",
+      "fi": 14.999999999999998,
+      "theta": 25,
+      "requires": [],
+      "cost": 2,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": [
+        {
+          "type": "skillExperience",
+          "key": "majsterkowanie",
+          "amount": 1
+        },
+        {
+          "type": "skillImprovisation",
+          "key": "majsterkowanie",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Wiejski Rzemieślnik",
+      "desc": "Jako rzemieślnik pracujący w małej miejscowości zajmowałeś się wszystkim co choćby minimalnie dotyczyło twojej profesji.\n\nZyskujesz 2 poziomy doświadczenia i improwizacji w umiejętności majsterkowanie.\n\nZyskujesz 10 pierścieni lub ekwipunek o takiej wartości.\nZyskujesz Skromny Zestaw Startowy.",
+      "hoverText": "",
+      "fi": 17,
+      "theta": 25,
+      "requires": [],
+      "cost": 4,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": []
+    },
+    {
+      "id": "34",
+      "name": "Stróż",
+      "desc": "Przez znaczącą część swojego życia twoim zadaniem było strzeżenie zwierząt, mienia czy życia innych ludzi w twojej społeczności.\n\nZyskujesz poziom doświadczenia w umiejętnościach siła, wigor i zręczność.\n\nZyskujesz 6 pierścieni lub ekwipunek o takiej wartości.\nZyskujesz Skromny Zestaw Startowy.",
+      "hoverText": "",
+      "fi": 19,
+      "theta": 25,
+      "requires": [],
+      "cost": 1,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": [
+        {
+          "type": "skillExperience",
+          "key": "sila",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "wigor",
+          "amount": 1
+        },
+        {
+          "type": "skillExperience",
+          "key": "zrecznosc",
+          "amount": 1
+        }
+      ]
     }
   ],
   "mutuallyExclusive": [
@@ -725,13 +798,13 @@
       "label": "origins",
       "max": 1,
       "members": [
-        "100002",
         "-1005",
         "-1001",
         "100001",
         "-1003",
         "-1002",
-        "-1004"
+        "-1004",
+        "100002"
       ]
     }
   ]
