@@ -404,10 +404,10 @@
     {
       "id": "6",
       "name": "Sztuka Walki",
-      "desc": "Twoja postać miała okzaję uczesniczyć w treningowej lub realnej walce.\n\nZ racji na to doświadczenie zyskujesz jeden poziom doświadczenia w umiejętności czas reakcji.",
+      "desc": "Twoja postać miała okzaję uczesniczyć w wielu treningowych lub realnych potyczkach.\n\nZ racji na to doświadczenie zyskujesz jeden poziom doświadczenia w umiejętności czas reakcji.",
       "hoverText": "",
-      "fi": 40,
-      "theta": 37.14,
+      "fi": 35,
+      "theta": 37,
       "requires": [
         "1"
       ],
@@ -575,10 +575,10 @@
     {
       "id": "100000",
       "name": "Fechtunek",
-      "desc": "Udało ci się zdobyć doświadczenie w walce bronią białą. \n\nZ racji na swój trening zyskujesz jeden poziom doświadczenia w umiejętności siła.",
+      "desc": "Udało ci się zdobyć niewielkie doświadczenie w walce kilkoma brońmi białymi.\n\nZ racji na swój trening zyskujesz jeden poziom doświadczenia w umiejętności siła.",
       "hoverText": "",
-      "fi": 39.9,
-      "theta": 38.56000000000001,
+      "fi": 40,
+      "theta": 38,
       "requires": [
         "6"
       ],
@@ -592,6 +592,132 @@
           "amount": 1
         }
       ]
+    },
+    {
+      "id": "100005",
+      "name": "Szkoła Makira",
+      "desc": "Szkoła Makira to szkoła fechtunku skupiająca się na wykorzystywaniu mieczy. Skupia się ona na zbalansowanym podejściu do walki.\n\nRozpoczynając trening w nucie tej szkoły zyskujesz wprawę w walce mieczami.",
+      "hoverText": "",
+      "fi": 40,
+      "theta": 40,
+      "requires": [
+        "100000"
+      ],
+      "cost": 3,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": []
+    },
+    {
+      "id": "100006",
+      "name": "Szkoła Wiwerny",
+      "desc": "Szkoła Wiwerny to szkoła fechtunku kładąca nacisk na mobilność, szybkość i zabójczo precyzyjne ataki.\n\nRozpoczynając trening w nucie tej szkoły zyskujesz wprawę w korzystaniu z sztyletów.",
+      "hoverText": "",
+      "fi": 38,
+      "theta": 40,
+      "requires": [
+        "100000"
+      ],
+      "cost": 2,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": []
+    },
+    {
+      "id": "100004",
+      "name": "Szkoła Damh",
+      "desc": "Szkoła Damh podkreśla wagę obrony, uniwersalnie efektywnych ataków, a także kładzie nacisk na umiejętność walki bez broni. Jeżeli przeciwnik nie może cię skrzywdzić, wygrasz każdą walkę.\n\nRozpoczynając trening w nucie tej szkoły zyskujesz wprawę w korzystaniu z tarcz.",
+      "hoverText": "",
+      "fi": 42,
+      "theta": 40,
+      "requires": [
+        "100000"
+      ],
+      "cost": 2,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": []
+    },
+    {
+      "id": "100007",
+      "name": "Szkoła Squamy",
+      "desc": "Szkołą Squamy, zwana także Szkołą Smoka, skupia się na zadawaniu druzgocących obrażeń.\n\nRozpoczynając trening w nucie tej szkoły zyskujesz biegłość w krótkich broniach drzewcowych.",
+      "hoverText": "",
+      "fi": 43.99999999999999,
+      "theta": 40,
+      "requires": [
+        "100000"
+      ],
+      "cost": 3,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": []
+    },
+    {
+      "id": "100008",
+      "name": "Szkołą Scairp",
+      "desc": "Szkołą Scairp, zwana także Szkołą Czarnogrzywa skupia się na zadawaniu ataków z przewagą dystansu.\n\nRozpoczynając trening w nucie tej szkoły zyskujesz wprawę w walce długą bronią drzewcową.",
+      "hoverText": "",
+      "fi": 36,
+      "theta": 40,
+      "requires": [
+        "100000"
+      ],
+      "cost": 3,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": []
+    },
+    {
+      "id": "100009",
+      "name": "Walka na dystans",
+      "desc": "Po nabyciu niewielkiego doświadczenia z bronią miotaną lub miotającą jesteś w stanie zwykle trafić w duży nieruchomy cel.\n\nZ racji na swój trening, poziom doświadczenia twojej zręczności zwiększa się o 1.",
+      "hoverText": "",
+      "fi": 29.999999999999996,
+      "theta": 38,
+      "requires": [
+        "6"
+      ],
+      "cost": 1,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": [
+        {
+          "type": "skillExperience",
+          "key": "sila",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "100010",
+      "name": "Szkołą Sytmpha",
+      "desc": "Szkoła Stympha skupia się na doskonalenia używania broni miotanej.",
+      "hoverText": "",
+      "fi": 32,
+      "theta": 40,
+      "requires": [
+        "100009"
+      ],
+      "cost": 1,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": []
+    },
+    {
+      "id": "100011",
+      "name": "Szkołą Strzelca",
+      "desc": "Szkołą Strzelca, skupia się na używaniu broni miotającej, czyli broni wystrzeliwywującej pociski na przykład łuków i proc.",
+      "hoverText": "",
+      "fi": 28,
+      "theta": 40,
+      "requires": [
+        "100009"
+      ],
+      "cost": 1,
+      "temperature": 6000,
+      "exclGroup": null,
+      "effects": []
     }
   ],
   "mutuallyExclusive": [
